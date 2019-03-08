@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="fill"
+    android:rowCount="5"
+    android:columnCount="3"
+    tools:context="com.example.hyugakei311.tictactoe.MainActivity">
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal ="true"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/speak"
+        android:onClick="startSpeaking"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:background="@drawable/oval"
+        android:gravity="bottom"
+        android:scaleType="centerInside"/>
+
+</GridLayout>
